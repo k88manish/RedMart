@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.timeline {
+  border-bottom: 1px solid blue;
+  border-left: 1px solid blue;
+  position: relative;
+}
+
+.event {
+  background-color: #85c5b5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: 1px solid lightgray;
+}
+
+.content {
+  margin: auto auto 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.content ul li {
+  position: relative;
+}
+
+.content ul li span {
+  position: absolute;
+  bottom: -7px;
+  right: -5px;
+}
